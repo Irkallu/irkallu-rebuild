@@ -13,7 +13,7 @@
     "@11ty/eleventy": "^1.0.0",
     "axios": "^0.26.1",
     "eleventy-plugin-error-overlay": "^1.0.0",
-    "eleventy-sass": "^1.1.5",
+    "eleventy-sass": "^1.2.0",
     "html-minifier": "^4.0.0",
     "sass": "^1.50.0"
   }
