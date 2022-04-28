@@ -1,0 +1,32 @@
+
+<div class="role-grid">
+{% for guildmaster in roles.guildmasters %}
+    <figure class="card">
+        <picture>
+            <img src="{{ guildmaster.img }}" width=400>
+        </picture>
+
+        <figcaption>
+            <h3>{{ guildmaster.title }}</h3>
+            <p>{{ guildmaster.name }}</h3>
+            <p class="pill" data-role="guildmaster">{{ guildmaster.tag }}</p>
+        </figcaption>
+    </figure>
+{% endfor %}
+</div>
+
+<div class="role-grid">
+    {% for circle in roles.circle %}
+    <figure class="card">
+        <picture>
+            <img src="{{ circle.img }}" width=400>
+        </picture>
+
+        <figcaption>
+            <h3>{{ circle.title }}</h3>
+            <p>{{ circle.name }}</h3>
+            <p class="pill" data-role="circle">{{ circle.tag }}</p>
+        </figcaption>
+    </figure>
+{% endfor %}
+</div>

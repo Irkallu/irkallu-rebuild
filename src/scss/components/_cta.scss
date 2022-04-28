@@ -1,0 +1,58 @@
+.cta-full {
+    background-image: url(/images/header.png);
+    padding: 5rem 0;
+    margin-top: 10rem;
+
+    .cta {
+        transition: 0.75s;
+        max-width: 80vw;
+        margin: 0 auto;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 0.75rem #FE5F75);
+        }
+
+        a {
+            font-size: var(--step-5);
+            font-family: 'Inknut Antiqua', serif;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+
+            display: block;
+            background: linear-gradient(90deg, rgba(254,95,117,1) 0%, rgba(252,149,68,1) 100%);
+            padding: 2.5rem 1rem;
+            margin: 0rem auto;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: 0.75s;
+            clip-path: polygon(0% 50%, 10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%);
+        }
+    }
+}
+
+nav .cta {
+    transition: 0.75s;
+    max-width: 25%;
+
+    &:hover {
+        filter: drop-shadow(0px 0px 0.75rem #FE5F75);
+    }
+
+    a {
+        font-size: var(--step-0);
+        font-family: 'Inknut Antiqua', serif;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+
+        display: block;
+        background: linear-gradient(90deg, rgba(254,95,117,1) 0%, rgba(252,149,68,1) 100%);
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.75s;
+        clip-path: polygon(0% 50%, 10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%);
+    }
+
+}

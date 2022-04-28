@@ -1,0 +1,15 @@
+// Scrollbar styles
+::-webkit-scrollbar {
+    height: 1rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: 1px solid #FE5F75;
+    border-radius: 0.25rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #FC9842;
+    border-radius: 0.25rem;
+  }

@@ -1,0 +1,30 @@
+{% extends "layouts/base-hero-title.html" %}
+{% block content %}
+  <article>
+
+    {{ content | safe }}
+
+    <ul class="two-column">
+        {% for post in posts %}
+        <figure class="card">
+            <picture>
+                <img src="{{ post.data.featuredImage }}" alt="">
+            </picture>
+    
+            <figcaption>
+                <h3><a href="/archives/{{ post.data.id }}">{{ post.title }}</a></h3>
+
+                <div class="user-info">
+                    <img src="{{ post.data.authorImage }}" width=200>
+                    <div>
+                        <p class="name">{{ post.data.authorName }}</p>
+                        <p class="date">{{ post.data.datePosted }}</p>
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        {% endfor %}
+
+    </ul>
+  </article>
+{% endblock %}

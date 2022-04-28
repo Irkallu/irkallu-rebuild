@@ -1,0 +1,49 @@
+h2 + .focus-grid {
+    margin-top: 5rem;
+}
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    
+    li {
+        list-style: none;
+
+        &::before {
+            content: "";
+            display: none;
+        }
+
+        figure {
+            max-width: 150px;
+
+            img {
+                max-width: 100%;
+                transition: 0.5s;
+                display: block;
+                margin: 0 auto;
+
+                &:hover {
+                    transform: rotate(-10deg);
+                }
+            }
+
+            figcaption {
+                text-align: center;
+                margin-top: 2rem;
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .focus-grid {
+        grid-template-columns: 100px 100px 100px;
+
+        figcaption p {
+            font-size: var(--step--2);
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "focus":[
+        {
+            "name": "Dungeons",
+            "img": "/images/goals/dungeons.svg"
+        },
+        {
+            "name": "Raids",
+            "img": "/images/goals/raids.svg"
+        },
+        {
+            "name": "Sieges",
+            "img": "/images/goals/sieges.svg"
+        },
+        {
+            "name": "Castles",
+            "img": "/images/goals/castles.svg"
+        },
+        {
+            "name": "Crafting",
+            "img": "/images/goals/crafting.svg"
+        },
+        {
+            "name": "Gathering",
+            "img": "/images/goals/gathering.svg"
+        },
+        {
+            "name": "Trading",
+            "img": "/images/goals/trading.svg"
+        },
+        {
+            "name": "History",
+            "img": "/images/goals/history.svg"
+        }
+    ]
+}

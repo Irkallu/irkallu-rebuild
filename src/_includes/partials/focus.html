@@ -1,0 +1,17 @@
+<section>
+<h2>Our focus</h2>
+<ul class="focus-grid">
+{% for focus in focus.focus %}
+<li>
+<figure>
+<img src="{{ focus.img }}">
+
+<figcaption>
+<p>{{ focus.name }}</p>
+</figcaption>
+</figure>
+</li>
+{% endfor %}
+</ul>
+</section>
+

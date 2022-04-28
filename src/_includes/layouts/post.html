@@ -1,0 +1,14 @@
+{% extends "layouts/base-no-hero.html" %}
+{% block content %}
+  <article class="post">
+    <h1>{{ post.data.attributes.Title }}</h1>
+    <figure class="user-info">
+        <img src="{{ authorImage }}" width=200>
+        <div>
+            <p class="name">{{ authorName }}</p>
+            <p class="date">{{ datePosted }}</p>
+        </div>
+    </figure>
+    {{ content | safe }}
+  </article>
+{% endblock %}

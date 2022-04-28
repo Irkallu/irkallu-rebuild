@@ -1,0 +1,36 @@
+<a class="skip-link visually-hidden" href="#main-content">Skip to content</a>
+
+<header role="banner" class="site-head">
+    <nav aria-label="Primary">
+        <div class="navInner">
+            <ul class="nav__list">
+            <li>
+                {% include 'assets/logo.svg' %}
+            </li>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/roles">Roles</a>
+            </li>
+            <li>
+                <a href="/archives">Blog</a>
+            </li>
+            </ul>
+
+            <div class="cta">
+                <a href="https://discord.com/invite/CB3ZrnD">Join us on our Discord</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="headerInner">
+        <figure>
+            {% include 'assets/dingir.svg' %}
+
+            <figcaption>
+                <h1>{{ heroText }}</h1>
+            </figcaption>
+        </figure>
+    </div>
+</header>

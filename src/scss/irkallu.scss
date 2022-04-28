@@ -1,0 +1,30 @@
+@import 'reset';
+@import 'colours';
+@import 'typography';
+
+//Import components
+@import 'components/nav';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/scrollbar';
+@import 'components/visually-hidden';
+@import 'components/cta';
+@import 'components/focus-grid';
+@import 'components/cards';
+
+article {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .two-column {
+    display: block;
+  }
+}

@@ -1,0 +1,8 @@
+{% extends "layouts/base-hero-title.html" %}
+{% block content %}
+  <article>
+    {{ content | safe }}
+
+    {% include 'partials/role-cards/leaders.html' %}
+  </article>
+{% endblock %}

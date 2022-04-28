@@ -1,0 +1,53 @@
+header {
+    background-image: url(/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+
+    color: white;
+
+    .headerInner {
+        max-width: 80vw;
+        margin: 0 auto;
+        padding: 5rem 0;
+
+        &> h1 {
+            text-align: center;
+            font-size: var(--step-5);
+        }
+
+        figure {
+            display: flex;
+            align-items: center;
+            column-gap: 2.5rem;
+
+            svg {
+                display: block;
+                height: 200px
+            }
+        }
+
+        img {
+            display: block;
+            max-height: 200px
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+
+        .headerInner {
+
+            figure{
+
+                img, svg {
+                    display: none;
+                }
+
+            }
+
+        }
+
+    }
+}
