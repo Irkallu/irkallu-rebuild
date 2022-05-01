@@ -2,27 +2,28 @@
 {% block content %}
   <article>
 
-    {{ content | safe }}
-
     <ul class="two-column">
-        {% for post in posts %}
+
+        {% for data in posts.data %}
+
         <figure class="card">
             <picture>
-                <img src="{{ post.data.featuredImage }}" alt="">
+                <img src="{{ data.featured_image }}" alt="">
             </picture>
-    
+
             <figcaption>
-                <h3><a href="/archives/{{ post.data.id }}">{{ post.title }}</a></h3>
+                <h3><a href="{{ data.url }}/">{{ data.title }}</a></h3>
 
                 <div class="user-info">
-                    <img src="{{ post.data.authorImage }}" width=200>
-                    <div>
-                        <p class="name">{{ post.data.authorName }}</p>
-                        <p class="date">{{ post.data.datePosted }}</p>
-                    </div>
+                    <img src="{{ data.author.profile_image }}" width=200>
+                        <div>
+                            <p class="name">{{ data.author.first_name }} {{ data.author.last_name }}</p>
+                            <time datetime="{{ data.published | w3DateFilter }}" class="date">{{ data.published | dateFilter }}</time>
+                        </div>
                 </div>
             </figcaption>
         </figure>
+
         {% endfor %}
 
     </ul>

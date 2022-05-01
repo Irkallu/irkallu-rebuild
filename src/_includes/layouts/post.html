@@ -1,14 +1,16 @@
 {% extends "layouts/base-no-hero.html" %}
 {% block content %}
   <article class="post">
-    <h1>{{ post.data.attributes.Title }}</h1>
+    <h1>{{ post.title }}</h1>
     <figure class="user-info">
-        <img src="{{ authorImage }}" width=200>
+        <img src="{{ post.author.profile_image }}" width=200>
         <div>
-            <p class="name">{{ authorName }}</p>
-            <p class="date">{{ datePosted }}</p>
+            <p class="name">{{ post.author.first_name }} {{ post.author.last_name }}</p>
+            <time datetime="{{ post.published | w3DateFilter }}" class="date">{{ post.published | dateFilter }}</time>
         </div>
     </figure>
-    {{ content | safe }}
+
+    {{ post.body | safe }}
+
   </article>
 {% endblock %}

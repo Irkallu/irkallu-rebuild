@@ -5,10 +5,5 @@ layout: 'layouts/archive'
 pagination:
   data: posts
   size: 100
-  alias: posts
-  permalink: '/archives/'
+  alias: data
 ---
-
-{%- for post in posts -%}
-    ## {{ post.title }}
-{%- endfor -%}
