@@ -10,14 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-fetch": "^3.0.0",
-    "axios": "^0.26.1",
-    "buttercms": "^1.2.9",
+    "@11ty/eleventy": "^1.0.1",
+    "axios": "^0.27.2",
     "eleventy-plugin-error-overlay": "^1.0.0",
-    "eleventy-sass": "^1.1.5",
+    "eleventy-sass": "^1.2.0",
     "html-minifier": "^4.0.0",
-    "node-fetch": "^3.2.4",
-    "sass": "^1.50.0"
+    "sass": "^1.51.0"
   }
 }
