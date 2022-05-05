@@ -1,0 +1,36 @@
+<h2>{{ pathwaystitle }}</h2>
+<p>{{ pathwaystext }}</p>
+
+<h3>Battle</h3>
+<div class="role-grid" id="pathways">
+{% for battle in roles.battle %}
+    <figure class="card">
+        <picture>
+            <img src="{{ battle.img }}" width=400>
+        </picture>
+
+        <figcaption>
+            <h3>{{ battle.title }}</h3>
+            <p>{{ battle.name }}</h3>
+            <p class="pill" data-role="battle">{{ battle.tag }}</p>
+        </figcaption>
+    </figure>
+{% endfor %}
+</div>
+
+<h3>Mercantile</h3>
+<div class="role-grid">
+    {% for merchant in roles.merchant %}
+    <figure class="card">
+        <picture>
+            <img src="{{ merchant.img }}" width=400>
+        </picture>
+
+        <figcaption>
+            <h3>{{ merchant.title }}</h3>
+            <p>{{ merchant.name }}</h3>
+            <p class="pill" data-role="mercantile">{{ merchant.tag }}</p>
+        </figcaption>
+    </figure>
+{% endfor %}
+</div>

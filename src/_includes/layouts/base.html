@@ -2,16 +2,9 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="theme-color" content="#000000" >
+  
+  {% include 'partials/head.html' %}
 
-    <link rel="stylesheet" href="/css/irkallu.css?{{ assetHash }}"> <!-- ?{{ assetHash }} -->
-
-    <title>{{ title }}</title>
-  </head>
   <body>
     {% include "partials/site-head-home.html" %}
     <main tabindex="-1" id="main-content">{% block content %}{% endblock %}</main>

@@ -12,10 +12,11 @@
     --step-3: clamp(1.94rem, calc(1.84rem + 0.50vw), 2.44rem);
     --step-4: clamp(2.33rem, calc(2.19rem + 0.72vw), 3.05rem);
     --step-5: clamp(2.80rem, calc(2.60rem + 1.02vw), 3.82rem);
-  }
+}
 
 body{
     font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4 {
@@ -92,8 +93,13 @@ a {
     font-size: var(--step-0);
 }
 
-p, li, a {
+p, a {
     max-width: 70ch;
+}
+
+li {
+    max-width: 60ch;
+    max-width: 80%;
 }
 
 .post p {
@@ -122,5 +128,9 @@ main li {
         margin-left: -1.75rem;
         object-fit: contain;
         transform: translateY(-10%);
+    }
+
+    &:last-child {
+        margin-bottom: 2.5rem;
     }
 }

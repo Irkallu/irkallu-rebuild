@@ -11,6 +11,7 @@
 @import 'components/cta';
 @import 'components/focus-grid';
 @import 'components/cards';
+@import 'components/blog';
 
 article {
   max-width: 80vw;
@@ -23,8 +24,34 @@ article {
   column-gap: 5rem;
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .two-column {
+      column-gap: 2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .two-column {
+    display: block;
+  }
+}
+
+@media screen and (min-device-width: 2559px) {
+  nav .navInner, header .headerInner, article {
+    max-width: 65vw;
+    margin: 0 auto;
+  }
+  #archive-feed {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.blog {
+  width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  #home {
     display: block;
   }
 }

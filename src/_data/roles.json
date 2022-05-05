@@ -4,13 +4,15 @@
             "name": "Kazan Ten'no",
             "title": "The Kadingir",
             "tag": "Guildmaster",
-            "img": "/images/roles/kadingir.png"
+            "img": "/images/roles/kadingir.png",
+            "intro": "/archives/meet-the-guildmasters-kazan/"
         },
         {
             "name": "Salkrai",
             "title": "The Adjunct",
             "tag": "Guildmaster",
-            "img": "https://images.unsplash.com/photo-1650134741390-0945c0403e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+            "img": "https://images.unsplash.com/photo-1650134741390-0945c0403e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "intro": "/archives/meet-the-guildmasters-salkrai/"
         }
     ],
     "circle":[
@@ -30,6 +32,48 @@
             "name": "",
             "title": "The Arbiter",
             "tag": "The Circle",
+            "img": "/images/roles/kadingir.png"
+        }
+    ],
+    "battle":[
+        {
+            "name": "",
+            "title": "Knight-Captain",
+            "tag": "Battle",
+            "img": "/images/roles/kadingir.png"
+        },
+        {
+            "name": "",
+            "title": "Knight",
+            "tag": "Battle",
+            "img": "/images/roles/kadingir.png"
+        }
+    ],
+    "merchant":[
+        {
+            "name": "",
+            "title": "Quartermaster",
+            "tag": "Mercantile",
+            "img": "/images/roles/kadingir.png"
+        },
+        {
+            "name": "",
+            "title": "Artisan",
+            "tag": "Mercantile",
+            "img": "/images/roles/kadingir.png"
+        }
+    ],
+    "recruits":[
+        {
+            "name": "",
+            "title": "Initiate",
+            "tag": "Recruits",
+            "img": "/images/roles/kadingir.png"
+        },
+        {
+            "name": "",
+            "title": "Recruit",
+            "tag": "Recruits",
             "img": "/images/roles/kadingir.png"
         }
     ]

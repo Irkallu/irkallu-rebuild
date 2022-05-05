@@ -54,10 +54,6 @@ nav {
 
     .navInner {
         display: block;
-
-        .cta {
-            display: none;
-        }
     }
 
     nav li:first-child {
@@ -67,5 +63,11 @@ nav {
 
     nav svg {
         margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    nav .cta {
+        display: none;
     }
 }

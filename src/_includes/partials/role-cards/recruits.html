@@ -1,0 +1,18 @@
+<h2>{{ recruitstitle }}</h2>
+<p>{{ recruitstext }}</p>
+
+<div class="role-grid" id="recruits">
+{% for recruit in roles.recruits %}
+    <figure class="card">
+        <picture>
+            <img src="{{ recruit.img }}" width=400>
+        </picture>
+
+        <figcaption>
+            <h3>{{ recruit.title }}</h3>
+            <p>{{ recruit.name }}</h3>
+            <p class="pill" data-role="recruits">{{ recruit.tag }}</p>
+        </figcaption>
+    </figure>
+{% endfor %}
+</div>

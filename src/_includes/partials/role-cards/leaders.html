@@ -1,3 +1,5 @@
+<h2>{{ leaderstitle }}</h2>
+<p>{{ leaderstext }}</p>
 
 <div class="role-grid">
 {% for guildmaster in roles.guildmasters %}
@@ -7,7 +9,7 @@
         </picture>
 
         <figcaption>
-            <h3>{{ guildmaster.title }}</h3>
+            <h3><a href="{{ guildmaster.intro }}">{{ guildmaster.title }}</a></h3>
             <p>{{ guildmaster.name }}</h3>
             <p class="pill" data-role="guildmaster">{{ guildmaster.tag }}</p>
         </figcaption>

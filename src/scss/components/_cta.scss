@@ -56,3 +56,30 @@ nav .cta {
     }
 
 }
+
+@media only screen
+  and (max-device-width: 600px) {
+
+    .cta-full .cta a {
+        clip-path: none;
+        border-radius: 5px;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1400px) {
+
+    nav .cta a {
+        clip-path: none;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (min-device-width: 2559px) {
+    .cta-full .cta {
+        max-width: 65vw;
+    }
+}
