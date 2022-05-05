@@ -9,10 +9,6 @@
         "enabled": false
       },
       {
-          "matchDepTypes": ["devDependencies"],
-          "automerge": true
-      },
-      {
         "matchPackagePatterns": [
           "*"
         ],
@@ -21,8 +17,7 @@
           "patch"
         ],
         "groupName": "all non-major dependencies",
-        "groupSlug": "all-minor-patch",
-        "automerge": true
+        "groupSlug": "all-minor-patch"
       }
   ],
   "platformAutomerge": true
