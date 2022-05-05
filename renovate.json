@@ -5,7 +5,7 @@
   "labels": ["dependencies"],
   "packageRules": [
       {
-        "packageNames": ["node"],
+        "packageNames": ["node", "@11ty/eleventy"],
         "enabled": false
       },
       {
