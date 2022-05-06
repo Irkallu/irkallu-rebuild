@@ -4,7 +4,7 @@
             "name": "Kazan Ten'no",
             "title": "The Kadingir",
             "tag": "Guildmaster",
-            "img": "https://cdn.buttercms.com/compress/qf2VBA4JRYOozxdlo6n4",
+            "img": "https://cdn.buttercms.com/Pv2X5N0kRIOpsVDrUNFr",
             "intro": "/archives/meet-the-guildmasters-kazan/"
         },
         {
@@ -20,19 +20,19 @@
             "name": "",
             "title": "The Golden Hand",
             "tag": "The Circle",
-            "img": "https://cdn.buttercms.com/compress/lYEVhmXbQG7zHPCZzYH0"
+            "img": "https://cdn.buttercms.com/compress/jVLORNCRSS8s2pUejNf1"
         },
         {
             "name": "",
             "title": "The Mortal Sword",
             "tag": "The Circle",
-            "img": "https://cdn.buttercms.com/compress/0ouIw7IITdepPvfBxcNG"
+            "img": "https://cdn.buttercms.com/Ks4iTrJESbKcFacsmLVN"
         },
         {
             "name": "",
             "title": "The Arbiter",
             "tag": "The Circle",
-            "img": "https://cdn.buttercms.com/compress/QqfosnV6TASztrxA7pxE"
+            "img": "https://cdn.buttercms.com/AFNQp3hCRMOikIFXQ3sW"
         }
     ],
     "battle":[
@@ -40,13 +40,13 @@
             "name": "",
             "title": "Knight-Captain",
             "tag": "Battle",
-            "img": "https://cdn.buttercms.com/kbd2s3YqQNixJQyWHGZw"
+            "img": "https://cdn.buttercms.com/rvTMdOcQkWIhvwxhEL3k"
         },
         {
             "name": "",
             "title": "Knight",
             "tag": "Battle",
-            "img": "https://cdn.buttercms.com/OxEUFv4TVyzgQXTUYFyV"
+            "img": "https://cdn.buttercms.com/cYCITV6TKHyI2HApXGQo"
         }
     ],
     "merchant":[
@@ -54,13 +54,13 @@
             "name": "",
             "title": "Quartermaster",
             "tag": "Mercantile",
-            "img": "https://cdn.buttercms.com/compress/0x4hmNyWQ7uUm8CQQS2D"
+            "img": "https://cdn.buttercms.com/vKLZ3khRTWadWRNNJOYF"
         },
         {
             "name": "",
             "title": "Artisan",
             "tag": "Mercantile",
-            "img": "https://cdn.buttercms.com/compress/G5wZk8LR5mPJiw4OJfHg"
+            "img": "https://cdn.buttercms.com/6qlS1R3TTria9AMNUAcd"
         }
     ],
     "recruits":[
@@ -68,13 +68,13 @@
             "name": "",
             "title": "Initiate",
             "tag": "Recruits",
-            "img": "https://cdn.buttercms.com/compress/ZzL9vvUOSWaO0nF36RsZ"
+            "img": "https://cdn.buttercms.com/A4YaIztSTYOe3HbmSmhi"
         },
         {
             "name": "",
             "title": "Recruit",
             "tag": "Recruits",
-            "img": "https://cdn.buttercms.com/ROrcJNIgQwK0q7ixFz4N"
+            "img": "https://cdn.buttercms.com/pr5vOYfWRZ2wliSjHFcG"
         }
     ]
 }
