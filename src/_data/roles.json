@@ -4,7 +4,7 @@
             "name": "Kazan Ten'no",
             "title": "The Kadingir",
             "tag": "Guildmaster",
-            "img": "/images/roles/kadingir.png",
+            "img": "https://cdn.buttercms.com/qf2VBA4JRYOozxdlo6n4",
             "intro": "/archives/meet-the-guildmasters-kazan/"
         },
         {
@@ -20,19 +20,19 @@
             "name": "",
             "title": "The Golden Hand",
             "tag": "The Circle",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/HC4wFTGeRDKbpf6NrOkx"
         },
         {
             "name": "",
             "title": "The Mortal Sword",
             "tag": "The Circle",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/0ouIw7IITdepPvfBxcNG"
         },
         {
             "name": "",
             "title": "The Arbiter",
             "tag": "The Circle",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/QqfosnV6TASztrxA7pxE"
         }
     ],
     "battle":[
@@ -40,13 +40,13 @@
             "name": "",
             "title": "Knight-Captain",
             "tag": "Battle",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/kbd2s3YqQNixJQyWHGZw"
         },
         {
             "name": "",
             "title": "Knight",
             "tag": "Battle",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/OxEUFv4TVyzgQXTUYFyV"
         }
     ],
     "merchant":[
@@ -54,13 +54,13 @@
             "name": "",
             "title": "Quartermaster",
             "tag": "Mercantile",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/5IHwd148QJ2UaZin3pYM"
         },
         {
             "name": "",
             "title": "Artisan",
             "tag": "Mercantile",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/osimS714Tay4MeG1L1F8"
         }
     ],
     "recruits":[
@@ -68,13 +68,13 @@
             "name": "",
             "title": "Initiate",
             "tag": "Recruits",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/8Np4VkMRJa034S0QSrbf"
         },
         {
             "name": "",
             "title": "Recruit",
             "tag": "Recruits",
-            "img": "/images/roles/kadingir.png"
+            "img": "https://cdn.buttercms.com/ROrcJNIgQwK0q7ixFz4N"
         }
     ]
 }
