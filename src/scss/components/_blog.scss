@@ -33,6 +33,12 @@
             max-width: 100%;
         }
     }
+
+    .post { 
+        p, figure {
+            max-width: 100%;
+        }
+    }
 }
 
 @media only screen 
