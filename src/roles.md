@@ -2,6 +2,8 @@
 title: 'Roles'
 heroText: 'Roles in Irkallu'
 layout: 'layouts/roles'
+summary: "Learn about the roles and structure of Irkallu."
+featuredImage: "https://cdn.buttercms.com/auto_image/compress/YQRFAsroTdhB5xWOobMw"
 leaderstitle: 'Leaders'
 leaderstext: "Our leaders are made up of the two Guildmasters, Kazan and Salkrai, and the roles that make up The Circle. They help organise activities, settle issues and keep the guild running."
 pathwaystitle: 'Pathways'
