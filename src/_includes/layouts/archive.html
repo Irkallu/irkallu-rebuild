@@ -15,7 +15,7 @@
                 <h3><a href="{{ data.url }}/">{{ data.title }}</a></h3>
 
                 <div class="user-info">
-                    <img src="{{ data.author.profile_image }}" width=200>
+                    <img src="{{ data.author.profile_image }}" width=200 alt="">
                         <div>
                             <p class="name">{{ data.author.first_name }} {{ data.author.last_name }}</p>
                             <time datetime="{{ data.published | w3DateFilter }}" class="date">{{ data.published | dateFilter }}</time>

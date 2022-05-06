@@ -3,7 +3,7 @@
   <article class="post">
     <h1>{{ post.title }}</h1>
     <figure class="user-info">
-        <img src="{{ post.author.profile_image }}" width=200>
+        <img src="{{ post.author.profile_image }}" width=200 alt="">
         <div>
             <p class="name">{{ post.author.first_name }} {{ post.author.last_name }}</p>
             <time datetime="{{ post.published | w3DateFilter }}" class="date">{{ post.published | dateFilter }}</time>
