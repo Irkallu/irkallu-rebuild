@@ -13,3 +13,5 @@ Thumbs.db
 node_modules
 dist
 src/_includes/css
+src/images/socialImage.jpg
+src/images/header2.jpg
