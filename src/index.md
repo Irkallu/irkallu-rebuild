@@ -3,7 +3,7 @@ title: 'Home'
 heroText: "We’re Irkallu - a friendly and inclusive Ashes of Creation guild, based in Europe."
 layout: 'layouts/home'
 summary: "We're an inclusive EU guild looking for players of all types. We know that in Ashes of Creation it's going to be important to know other people, which is why we want to build our own close-knit community of players to grow with."
-featuredImage: "https://cdn.buttercms.com/auto_image/compress/YQRFAsroTdhB5xWOobMw"
+featuredImage: "https://cdn.buttercms.com/fRevWvyKTLCW2ueaaMb2"
 ---
 
 <section>
