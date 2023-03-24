@@ -1,6 +1,6 @@
 {
   "name": "irkallu-eleventy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -10,12 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "1.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "axios": "^0.27.2",
+    "@11ty/eleventy": "1.0.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "axios": "^1.2.2",
     "eleventy-plugin-error-overlay": "^1.0.0",
-    "eleventy-sass": "^1.2.0",
+    "eleventy-sass": "^2.1.4",
     "html-minifier": "^4.0.0",
-    "sass": "^1.51.0"
+    "sass": "^1.57.1"
+  }, "overrides": {
+    "@11ty/eleventy": {
+      "liquidjs": "10.3.3"
+    },
+    "eleventy-plugin-error-overlay": {
+      "liquidjs": "10.3.3"
+    }
   }
 }
