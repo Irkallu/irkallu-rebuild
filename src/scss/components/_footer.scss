@@ -3,6 +3,13 @@ footer {
     color: white;
     padding: 2.5rem;
     font-size: var(--step-0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+    }
 
     a {
         color: var(--primary);
@@ -10,6 +17,12 @@ footer {
 
         &:hover {
             color: var(--secondary);
+        }
+    }
+
+    .butter-logo {
+        img{
+            max-width: 10rem;
         }
     }
 }
