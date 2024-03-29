@@ -19,10 +19,12 @@
     "sass": "^1.57.1"
   }, "overrides": {
     "@11ty/eleventy": {
-      "liquidjs": "10.3.3"
+      "liquidjs": "10.3.3",
+      "browser-sync": "3.0.2"
     },
     "eleventy-plugin-error-overlay": {
-      "liquidjs": "10.3.3"
+      "liquidjs": "10.3.3",
+      "browser-sync": "3.0.2"
     }
   }
 }
