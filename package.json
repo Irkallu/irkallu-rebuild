@@ -1,6 +1,6 @@
 {
   "name": "irkallu-eleventy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -15,7 +15,6 @@
     "axios": "^1.6.0",
     "eleventy-plugin-error-overlay": "^1.0.0",
     "eleventy-sass": "^2.1.4",
-    "html-minifier": "^4.0.0",
     "sass": "^1.57.1"
   }, "overrides": {
     "@11ty/eleventy": {
