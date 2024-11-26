@@ -105,6 +105,9 @@
 
 #recruits {
     grid-template-columns: 25vw;
+    .card {
+        display: block;
+    }
 }
 
 .user-info {
