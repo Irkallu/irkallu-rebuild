@@ -105,7 +105,8 @@
 
 #recruits {
     grid-template-columns: 25vw;
-    .card {
+    .card,
+    .card figcaption {
         display: block;
     }
 }
