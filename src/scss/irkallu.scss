@@ -1,17 +1,17 @@
-@import 'reset';
-@import 'colours';
-@import 'typography';
+@use 'reset';
+@use 'colours';
+@use 'typography';
 
 //Import components
-@import 'components/nav';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/scrollbar';
-@import 'components/visually-hidden';
-@import 'components/cta';
-@import 'components/focus-grid';
-@import 'components/cards';
-@import 'components/blog';
+@use 'components/nav';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/scrollbar';
+@use 'components/visually-hidden';
+@use 'components/cta';
+@use 'components/focus-grid';
+@use 'components/cards';
+@use 'components/blog';
 
 article {
   max-width: 80vw;
