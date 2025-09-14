@@ -18,11 +18,6 @@ module.exports = config => {
         }
       });
 
-    /* Returns work items, sorted by display order
-    config.addCollection('archives', collection => {
-        return collection.getFilteredByGlob('./src/archives/*.md');
-    }); */
-
     // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
     config.setUseGitIgnore(false);
 
